@@ -1,0 +1,12 @@
+@use '../abstracts' as *;
+
+.header {
+	@include grid(center);
+
+	.container {
+		@include grid(center);
+		gap: $gap * 3.8;
+		overflow-x: hidden;
+		
+	}
+}
