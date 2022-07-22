@@ -1,10 +1,11 @@
 import React from 'react'
-import { Navbar, Search, Info } from './Components'
+import { Navbar, Search, Info } from './components'
 
 const App = () => {
+
 	return (
 		<>
-			<Navbar />
+			<Navbar/>
 			<Search />
 			<Info />
 		</>
